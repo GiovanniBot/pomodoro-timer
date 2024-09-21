@@ -10,7 +10,6 @@ export const HeaderContainer = styled.header`
     gap: 0.5rem;
 
     :focus {
-      outline: 0;
       box-shadow: none;
     }
 
@@ -22,17 +21,17 @@ export const HeaderContainer = styled.header`
       justify-content: center;
       align-items: center;
 
-      color: ${props => props.theme['gray-100']};
+      color: ${(props) => props.theme['gray-100']};
 
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
 
       &:hover {
-        border-bottom: 3px solid ${props => props.theme['blue-500']};
+        border-bottom: 3px solid ${(props) => props.theme['blue-500']};
       }
 
       &.active {
-        color: ${props => props.theme['blue-500']}
+        color: ${(props) => props.theme['blue-500']};
       }
     }
   }
