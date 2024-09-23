@@ -38,6 +38,7 @@ const BaseInput = styled.input`
   color: ${(props) => props.theme['gray-100']};
 
   &:focus {
+    outline: none;
     box-shadow: none;
     border-color: ${(props) => props.theme['blue-500']};
   }

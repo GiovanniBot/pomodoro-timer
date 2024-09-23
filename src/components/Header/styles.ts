@@ -9,10 +9,6 @@ export const HeaderContainer = styled.header`
     display: flex;
     gap: 0.5rem;
 
-    :focus {
-      box-shadow: none;
-    }
-
     a {
       width: 3rem;
       height: 3rem;
