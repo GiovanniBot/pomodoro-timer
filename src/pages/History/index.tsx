@@ -21,9 +21,7 @@ export function History() {
               <td>25 minutes</td>
               <td>1 month ago</td>
               <td>
-                <Status statusColor='green'>
-                  Completed
-                </Status>
+                <Status statusColor="green">Completed</Status>
               </td>
             </tr>
             <tr>
@@ -31,9 +29,7 @@ export function History() {
               <td>20 minutes</td>
               <td>3 months ago</td>
               <td>
-                <Status statusColor='yellow'>
-                  In progress
-                </Status>
+                <Status statusColor="yellow">In progress</Status>
               </td>
             </tr>
             <tr>
@@ -41,9 +37,7 @@ export function History() {
               <td>40 minutes</td>
               <td>6 months ago</td>
               <td>
-                <Status statusColor='red'>
-                  Interrupted
-                </Status>
+                <Status statusColor="red">Interrupted</Status>
               </td>
             </tr>
           </tbody>
